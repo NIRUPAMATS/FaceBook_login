@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link href="fb.css"type="text/css"rel="stylesheet">
+</head>
+<body>
+    <div class="mainbody">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text">facebook</a>
+            </div>
+            <div class="login">
+                <form >
+                    <table class="text">
+                        <tr>
+                          <td>Email or phone</td>  
+                          <td>Password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="submit"value="Log In" class="button"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="forgotten.html" class="forgotten">Forgotten account?</a></td>
+                        </tr>
+
+                    </table>
+                </form>
+
+            </div>
+        </div>
+        <div class="middle">
+            <div class="mleft">
+                <p class="para">Facebook helps you to connect and share with the people in your life.</p>
+                <img src="fb-home.png" class="img"  >
+            </div>
+            <div class="mright">
+                <h1 style="color: rgb(8, 8, 87);">Create an account</h1>
+                <h4 style="color: rgb(8, 8, 87);">It's quick and easy.</h4>
+                <form id="signupform">
+                    <input name="fname" type="text"placeholder="First name" class="first">
+                    <input name="sname" type= "text"placeholder="Surname"class="first"><br><br>
+                    <input name="email" type="email or number"placeholder="Mobile number or email address"class="second"><br><br>
+                    <input name="pswd" type=""placeholder="New password"class="second"><br><br>
+                    <label>Birthday</label><br>
+                    <select mame="date">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                    <select name="month">
+                        <option>month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                    </select>
+                    <select name="year">
+                        <option>Year</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                    </select><br><br>
+                    <label>Gender</label><br>
+                    <input name="gender" type="radio">
+                    <label>Male</label>
+                    <input name="gender" type="radio">
+                    <label>Female</label>
+                    <input name="gender" type="radio">
+                    <label>Other</label>
+                </form>
+                <br>
+                <button class="sign">Sign Up</button>
+
+            </div>
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

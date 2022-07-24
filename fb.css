@@ -1,0 +1,81 @@
+.header{
+    width: 100%;
+    height: 168px;
+    background: #3b5998;
+}
+.logo{
+    width: 50%;
+    padding-top:70px ;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 70px;
+   
+}
+.logo-text{
+    color: white;
+    font-size:70px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+body{
+    margin: 0;
+}
+.text{
+    color: white;
+    padding-left:20px ;
+}
+.button{
+    background: rgb(15, 79, 119);
+    color: white;
+    cursor: pointer;
+}
+.forgotten{
+    color: #fff;
+    text-decoration: none;
+}
+.mleft{
+    width: 60%;
+    float: left;
+   
+}
+.mright{
+    width: 40%;
+    float:left;
+    
+}
+.middle{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#ffff,#dde0eb);
+}
+.para{
+    color: darkblue;
+    font-weight: 1000;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+.img{
+    width:590px ;
+    padding-left:75px ;
+    padding-top: 10px;
+}
+.first{
+    border-radius: 3px;
+    border-color:rgb(217, 226, 222) ; 
+}
+.second{
+   width: 340px;
+   border-radius: 3px;
+   border-color:rgb(217, 226, 222) ;
+}
+.sign{
+    width: 200px;
+    background: linear-gradient(#30D41F,#2F7F1F);
+    border: none;
+    height: 27px;
+    color: #ffff;
+    font-style: normal;
+}
